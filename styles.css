@@ -53,32 +53,17 @@ a {
   padding: .5em 1em;
   color: white;
 }
-#button-indigo {
-  background: none;
-  border: 3px solid var(--primary-indigo);
-  color: var(--primary-indigo);
-}
-#button-aqua {
-  background: none;
-  border: 3px solid var(--primary-aqua);
-  color: var(--primary-aqua);
-}
-#button-lime {
-  background: none;
-  border: 3px solid var(--primary-lime);
-  color: var(--primary-lime);
-}
+
 #button-red {
   background: var(--primary-red);
   border: 3px solid var(--primary-red);
 }
-#button-red-outline {
-  background: none;
-  border: 3px solid var(--primary-red);
-  color: var(--primary-red);
-}
+
 /*nav stuff*/
 nav {
+  position: sticky;
+  top: 0px;
+  left: 0px;
   display: flex;
   justify-content: space-between;
   margin: 2em;
@@ -101,8 +86,10 @@ i {
   height: 70vh;
   display: flex;
   flex-direction: column;
-
+  position: relative;
+  top: -10vh;
 }
+
 #spots {
   display: flex;
   justify-content: center;
@@ -151,7 +138,7 @@ i {
 }
 .projects {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: auto;
 }
 .ux-project {
