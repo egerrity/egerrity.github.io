@@ -62,7 +62,7 @@ a {
 /*nav stuff*/
 nav {
   position: sticky;
-  top: 0px;
+  top: 2em;
   left: 0px;
   display: flex;
   justify-content: space-between;
@@ -186,7 +186,7 @@ i {
 
 #headshot {
   border-radius: 100%;
-  width: 40vw;
+  width: 25vw;
   margin-right: 1em;
   border: 3px solid var(--medium-navy);
 }
@@ -197,13 +197,12 @@ i {
 }
 #headshot-heading h3 {
   font-weight: 700;
-  font-size: 1.75em;
+  font-size: 3em;
 }
-#about h4 {
+#headshot-heading h4 {
   font-weight: 300;
   color: var(--primary-red);
-  font-size: 1.25em;
-  margin: .75em 0 .25em 0;
+  font-size: 2em;
 }
 #name-title {
   display: flex;
@@ -215,17 +214,68 @@ i {
   margin-block-end: 0px;
   color: var(--light-navy);
 }
+#about h4 {
+  font-weight: 300;
+  color: var(--primary-red);
+  font-size: 2em;
+  margin: .5em 0;
+}
 
-.social-icons {
+.social-icons a {
   font-size: 2em;
   padding-top: .25em;
   color: var(--light-navy);
 }
+/*experience*/
+#experience-section {
+  display: flex;
+  justify-content: space-between;
+}
+#experience-item-callyo {
+  display: flex;
+  align-items: center;
+  background: var(--primary-navy);
+  padding: 2em;
+  border-radius: 1em;
+  background-image: url(images/swoosh-experience.svg);
+  background-size: auto 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-top: 2em;
+}
+.experience-item {
+  width: 20vw;
+  justify-content: space-between;
+  background: var(--primary-navy);
+  padding: 2em;
+  border-radius: 1em;
+  margin: 2em 0;
+  background-image: url(images/swoosh-navy.svg);
+  background-size: 100% auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
 
+#experience-item-callyo h6 {
+  font-weight: 300;
+  color: var(--primary-red);
+  font-size: 1.5em;
+  margin: .5em 0;
+}
+.experience-item h6 {
+  font-weight: 300;
+  color: var(--primary-red);
+  font-size: 1.5em;
+  margin: .5em 0;
+}
+.experience-sublist {
+  list-style-type: none;
+}
+/*skills*/
 .icons {
   display: flex;
   justify-content: space-between;
-  padding-top: 1em;
+  margin: 3em 0;
   text-align: center;
 }
 .icons img {
