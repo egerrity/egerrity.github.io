@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1728px" height="335px" viewBox="0 0 1728 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>swoosh-large</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.543666295">
+        <g id="Artboard" transform="translate(-1.000000, -1747.000000)" fill="#1B1932">
+            <path d="M711.4816,1972.55487 C830.1232,1953.41095 953.6752,1952.25453 1072.1296,1972.10833 C1187.2432,1991.35529 1306.6048,2038.2991 1420.3504,2062.14884 C1521.2224,2083.3079 1631.3536,2092.02113 1729,2065.58375 L1729,1747 L1,1747 L1,1987.17615 C148.550529,2031.66303 308.602967,2043.18179 463.8016,2020.48335 C547.3216,2008.12911 628.192,1985.98538 711.4816,1972.55487 Z" id="swoosh-large" transform="translate(865.000000, 1914.500000) scale(-1, 1) rotate(-180.000000) translate(-865.000000, -1914.500000) "></path>
+        </g>
+    </g>
+</svg>

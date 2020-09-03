@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121px" height="120px" viewBox="0 0 121 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sketch</title>
+    <defs>
+        <radialGradient cx="50%" cy="47.2900391%" fx="50%" fy="47.2900391%" r="71.9203856%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="100%"></stop>
+        </radialGradient>
+        <path d="M114.24031,0 L7.57364341,0 C3.89031008,0 0.906976744,2.98333333 0.906976744,6.66666667 L0.906976744,113.333333 C0.906976744,117.016667 3.89031008,120 7.57364341,120 L114.24031,120 C117.923643,120 120.906977,117.016667 120.906977,113.333333 L120.906977,6.66666667 C120.906977,2.98666667 117.92031,0 114.24031,0 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-440.000000, -1592.000000)" fill-rule="nonzero">
+            <g id="sketch" transform="translate(440.000000, 1592.000000)">
+                <g id="Path">
+                    <use fill="#2F2861" xlink:href="#path-2"></use>
+                    <use fill-opacity="0.58" fill="url(#radialGradient-1)" style="mix-blend-mode: overlay;" xlink:href="#path-2"></use>
+                </g>
+                <g id="Group-3" transform="translate(11.906977, 24.883333)">
+                    <polygon id="Path" fill="#B87C00" points="5.80276568e-15 22.9962194 27.9099415 -9.562304e-14 69.7748538 -9.562304e-14 97.6847953 22.9962194 55.819883 68.9886583 41.8649123 68.9886583"></polygon>
+                    <polygon id="Path" fill="#8A5200" points="69.7748538 22.9962194 97.6847953 22.9962194 55.819883 68.9886583"></polygon>
+                    <polygon id="Path" fill="#FFE381" points="-2.90138284e-15 22.9962194 27.9099415 22.9962194 27.9099415 7.01235627e-14"></polygon>
+                    <polygon id="Path" fill="#FFC700" points="69.7748538 22.9962194 69.7748538 3.8249216e-14 27.9099415 3.8249216e-14 27.9099415 22.9962194 41.8649123 68.9886583 48.8423977 77.1577465 55.819883 68.9886583"></polygon>
+                    <polygon id="Path" fill="#FFD438" points="-2.90138284e-15 22.9962194 27.9099415 22.9962194 41.8649123 68.9886583"></polygon>
+                    <polygon id="Path" fill="#FFE277" points="27.9099415 22.9962194 48.8423977 7.01235627e-14 69.7748538 22.9962194"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
