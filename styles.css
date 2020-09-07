@@ -603,7 +603,7 @@ footer i {
   flex: 1 1 50%;
   color: var(--primary-navy);
   align-self: center;
-  margin: 3% 3%;
+  margin: 3% 0 3% 3%;
 }
 
 .gallery-description h2, p {
@@ -619,9 +619,6 @@ footer i {
   flex: 2 0 40vw;
   padding: 4% 2% 0 2%;
   background-color: var(--primary-navy);
-  border-bottom: 3px solid var(--primary-navy);
-  justify-content: center;
-  max-height: 500px;
 }
 .reverse-item > div {
   margin: auto;
@@ -636,7 +633,7 @@ footer i {
   flex-direction: column;
   flex: 1 1 50%;
   align-self: center;
-  margin: 3% 3%;
+  margin: 3%  3% 3%0;
 }
 .reverse-description h2, p {
   margin: 3% 0;
