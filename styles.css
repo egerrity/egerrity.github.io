@@ -552,10 +552,12 @@ footer i {
 }
 #dbl-button {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
+  justify-content: space-between;
 }
 #dbl-button a {
-  width: 50%;
+  width: 45%;
 }
 .gallery-container h2 {
   display: flex;
@@ -648,6 +650,15 @@ footer i {
 @media only screen and (max-width: 590px)  {
   .reverse-description, .gallery-description {
     text-align: center;
+  }
+  #dbl-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+  }
+  #dbl-button a {
+    width: 100%;
   }
 }
 
