@@ -503,7 +503,7 @@ footer i {
 
 /*ux gallery styles*/
 .sec-container {
-  max-width: 70vw;
+  max-width: 90vw;
   margin: auto;
   overflow: hidden;
   padding: calc(1vmax + -1vmin);
@@ -535,11 +535,9 @@ footer i {
 .sec-showcase h1 i {
   color: var(--lightest-aqua);
   padding-right: 1rem;
-  text-align: center;
 }
 .sec-showcase h1 {
-  color: var(--primary-lime);
-  font-size: 10vw;
+  color: var(--primary-lime)
 }
 .sec-showcase p {
   font-weight: 500;
@@ -666,7 +664,7 @@ footer i {
 
 /* 10-21pp page */
 .pp-container {
-  max-width: 70vw;
+  max-width: 90vw;
   margin: auto;
   overflow: hidden;
   padding: calc(1vmax + -1vmin);
