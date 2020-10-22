@@ -535,9 +535,11 @@ footer i {
 .sec-showcase h1 i {
   color: var(--lightest-aqua);
   padding-right: 1rem;
+  text-align: center;
 }
 .sec-showcase h1 {
-  color: var(--primary-lime)
+  color: var(--primary-lime);
+  font-size: 10vw;
 }
 .sec-showcase p {
   font-weight: 500;
