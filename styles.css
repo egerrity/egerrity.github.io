@@ -846,7 +846,7 @@ footer i {
     flex-wrap: wrap;
   }
   .cs-dbl-image-container img {
-    max-height: 300px;
+    max-width: 590px;
   }
 }
 .cs-dbl-image-container > div {
