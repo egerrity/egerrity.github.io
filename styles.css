@@ -14,6 +14,8 @@
   --dark-navy: #02091e;
   --navy-overlay: #02091edb;
   --menu-speed: 0.75s;
+  --ds-purple: #9A46D1;
+  --ds-purple-light: #B87EDF;
 }
 * {
   box-sizing: border-box;
@@ -807,7 +809,7 @@ footer i {
 /* what is 10-21? */
 #what-is-app {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 3% 0;
   justify-content: space-between;
   align-content: center;
@@ -829,6 +831,7 @@ footer i {
 }
 .cs-image-container img {
   width: 100%;
+  overflow: hidden;
 }
 .cs-image-container p {
   color: var(--dark-navy);
@@ -1070,7 +1073,7 @@ footer i {
   width: 100vw;
   height: auto;
   overflow: hidden;
-  background: url(images/10-21-shipped-bg.png) no-repeat bottom center/cover;
+  background: url(images/upside-ds-shipped.png) no-repeat bottom center/cover;
 }
 .shipped-showcase .shipped-showcase-inner {
   display: flex;
@@ -1090,6 +1093,7 @@ footer i {
 }
 #feature-container {
   display: flex;
+  color: var(--lightest-aqua);
 }
 #feature-logos {
   display: flex;
@@ -1122,6 +1126,7 @@ footer i {
 .wrap-up {
   background: var(--primary-navy);
   color: var(--lightest-aqua);
+  padding: 5vw 0;
 }
 
 .image-row {
@@ -1134,4 +1139,61 @@ footer i {
 
 .image-row img {
   width: 100%;
+}
+
+/*purple span*/
+#ds-purple {
+  color: var(--ds-purple)
+}
+#ds-purple-light {
+  color: var(--ds-purple-light)
+}
+
+/*purple case study*/
+.purple-container {
+  max-width: 90vw;
+  margin: auto;
+  overflow: hidden;
+  padding: calc(1vmax + -1vmin);
+}
+.purple-showcase {
+  height: 50vmax;
+  min-height: 500px;
+  position: relative;
+}
+.purple-showcase::before {
+  content: '';
+  background: url(images/upside-purple-hero.jpg) no-repeat top center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.purple-showcase .purple-showcase-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: calc(1vmax + -1vmin);
+}
+.purple-showcase .purple-showcase-inner img {
+  height: 10%;
+  margin-bottom: 3%;
+}
+.purple-showcase h1 i {
+  color: var(--lightest-aqua);
+  padding-right: 1rem;
+}
+.purple-showcase h1 {
+  color: var(--primary-lime)
+}
+.purple-showcase p {
+  font-weight: 500;
+}
+.purple-showcase a {
+  margin: 1rem;
 }
