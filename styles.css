@@ -1073,7 +1073,7 @@ footer i {
   width: 100vw;
   height: auto;
   overflow: hidden;
-  background: url(images/upside-ds-shipped.png) no-repeat bottom center/cover;
+  background: url(images/10-21-shipped-bg.png) no-repeat bottom center/cover;
 }
 .shipped-showcase .shipped-showcase-inner {
   display: flex;
@@ -1196,4 +1196,107 @@ footer i {
 }
 .purple-showcase a {
   margin: 1rem;
+}
+/*policy*/
+.policy-container {
+  max-width: 90vw;
+  margin: auto;
+  overflow: hidden;
+  padding: calc(1vmax + -1vmin);
+}
+.policy-showcase {
+  height: 50vmax;
+  min-height: 500px;
+  position: relative;
+}
+.policy-showcase::before {
+  content: '';
+  background: url(images/upside-policyhero.png) no-repeat top center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.policy-showcase .policy-showcase-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: calc(1vmax + -1vmin);
+}
+.policy-showcase .policy-showcase-inner img {
+  height: 10%;
+  margin-bottom: 3%;
+}
+.policy-showcase h1 i {
+  color: var(--lightest-aqua);
+  padding-right: 1rem;
+}
+.policy-showcase h1 {
+  color: var(--primary-lime)
+}
+.policy-showcase p {
+  font-weight: 500;
+}
+.policy-showcase a {
+  margin: 1rem;
+}
+/*policy shipped*/
+.policy-shipped-showcase {
+  height: auto;
+  min-height: 500px;
+  position: relative;
+  text-align: left;
+  background: var(--primary-navy);
+}
+.policy-shipped-container {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  background: url(images/upside-shippedbg.png) no-repeat bottom center/cover;
+}
+.policy-shipped-shipped-showcase .policy-shipped-showcase-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8%;
+}
+.policy-shipped-showcase img {
+  width: 100%;
+}
+.policy-shipped-showcase h3 {
+  color: var(--lightest-aqua);
+}
+.policy-shipped-showcase p {
+  color: var(--lightest-aqua);
+  font-size: 70%;
+}
+#policy-shipped-simple {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.policy-shipped-showcase a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70%;
+  text-align: center;
+  text-decoration: underline;
+  color: var(--primary-lime);
+  padding-left: 10%;
+}
+.policy-shipped-showcase img {
+  padding-left: 10%;
+}
+.policy-shipped-showcase li {
+  list-style-type: initial;
+  font-weight: 300;
+  font-size: 70%;
 }
