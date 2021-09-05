@@ -1374,6 +1374,12 @@ margin-bottom: 3%;
 .purple-showcase a {
   margin: 1rem;
 }
+.purple-shipped-container {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  background: url(images/upside-ds-shipped-bg.png) no-repeat bottom center/cover;
+}
 /*policy*/
 .policy-container {
   max-width: 90vw;
