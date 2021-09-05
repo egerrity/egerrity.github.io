@@ -1080,6 +1080,21 @@ footer i {
     align-self: center;
     justify-content: flex-end;
   }
+  #cs-iteration-img-container {
+    display: flex;
+    flex: 1 2 40%;
+  }
+  #cs-iteration-img-container img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    align-self: center;
+    justify-content: flex-end;
+    box-shadow: 0px 4px 12px 4px var(--light-navy);
+  }
+  #iteration-heading p {
+    font-size: 70%;
+  }
   #cs-center-image {
     width: 100%;
     display: flex;
