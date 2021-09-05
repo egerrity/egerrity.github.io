@@ -832,7 +832,7 @@ footer i {
   }
   .project-description {
     margin-bottom: 1rem;
-  } 
+  }
 }
 /* what is 10-21? */
 #what-is-app {
@@ -842,6 +842,15 @@ footer i {
   justify-content: space-between;
   align-content: center;
   flex-direction: column;
+}
+#what-is-app-contacts {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 3% 0;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  margin-bottom: 3%;
 }
 /* case study intro */
 #cs-problems {
@@ -900,6 +909,16 @@ footer i {
 #cs-problems ol {
   font-size: 80%;
 }
+#what-is-app-contacts {
+  display: flex;
+  margin: 3% 0;
+  flex-direction: row;
+  align-items: center;
+}
+#what-is-app-contacts img {
+  padding: 10%;
+  max-width: 30vw;
+}
 @media only screen and (max-width: 590px) {
     #what-is-app {
       flex-direction: column;
@@ -932,7 +951,7 @@ footer i {
       align-items: stretch;
       max-width: 100%;
     }
-    .cs-one-image-container > div {
+    .cs-exploration > div {
       display: flex;
       height: 50%;
       width: 100%;
@@ -941,7 +960,16 @@ footer i {
     .cs-one-image-container img {
       width: 100%;
       align-self: flex-start;
+      overflow: hidden;
     }
+    #what-is-app-contacts {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 3% 0;
+      justify-content: space-between;
+      align-content: center;
+      flex-direction: column;
+  }
   }
   /* persona section */
   #cs-persona-section {
@@ -1083,11 +1111,18 @@ footer i {
     display: none;
   }
   .vert-quote-img {
-  justify-content: flex-start
+  display: flex;
+  flex-direction: column-reverse;
+  }
+  .reverse-quote {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .vert-quote-img div {
     margin-bottom: 0px;
-    flex-direction: column-reverse;
+  }
+  .quote img {
+    padding: 1%;
   }
 }
 .cs-feedback {
@@ -1104,7 +1139,6 @@ footer i {
 }
 .quote-section-two {
   display: flex;
-  margin-top: 3%;
 }
 .vert-quote-img {
   display: flex;
@@ -1114,6 +1148,9 @@ footer i {
 }
 .vert-quote-img img {
   width: 100%;
+}
+.wide-quote {
+margin-bottom: 3%;
 }
 .wide-quote img {
   max-width: 60px;
