@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@200&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/7141754fcc.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+          <div></div>
+        </div>
+        <div class="logo">
+            <a href="index.html"><h5><i class="fas fa-draw-polygon"></i>Emily Gerrity</h3></a>
+        </div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="index.html"><i class="fas fa-draw-polygon"></i>Emily Gerrity</a></li>
+                <li><a href="images/gerrity-resume.pdf" target="_blank"><i class="fas fa-file"></i>Resume</a></li>
+                <li><a href="uiux-portfolio.html"><i class="fab fa-sketch"></i>UI/UX & Web</a></li>
+                <li><a href="https://www.instagram.com/emilygerrityartdesign/" target="_blank"><i class="fas fa-palette"></i>Illustration</a></li>
+                <li><a href="mailto: ergerrity@gmail.com" id="button-red" class="button" ><i class="fas fa-paper-plane"></i>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="mapp-showcase">
+        <div class="mapp-container mapp-showcase-inner">
+          <img src="images/upside-icon.svg" alt="">
+          <h1 class="secondary-hero">Upside Business Travel App</h1>
+          <p>Upside's mobile app was developed as a convenient way to plan, book, and manage business trips. Improvements and feature upgrades were needed to keep up with the industry and polish our UI</p>
+        </div>
+      </header>
+
+
+
+
+
+
+        <!-------------------------intro--------------------------------> 
+      <div class="case-study">
+        <div class="case-study-intro section-padding" id="back-to-top">
+          <div class="project-description">
+            <h2>Self Service Features</h2>
+            <h3>Southwest Airlines updated some of their backend technology that allowed us to begin offering more self service options in the app.</h3>
+            <p>Problems: We were on a tight timeline to ship this feature due to pressure from the airline. My PM and I collected data on how often travelers were calling into the customer service center for help while on trips, and found out that almost no one was using the app while on their trips. The goal of this endeavor was to get MVPs in place for each feature, and create a scalable groundwork that could support multiple airlines—not just Southwest.</p>
+          </div>
+          <div class="project-details">
+            <h6>Project Goals</h6>
+            <p>Assess the best MVP verion for self service and plan for optimization for v2</p>
+            <h6>Project Timeline</h6>
+            <p>02/21-4/21</p>          
+            <h6>Responsibilities</h6>
+            <p>User Research, Experience Design, Interface Design</p>          
+          </div>
+        </div>
+
+        <!-------------------------quick jump nav--------------------------->         
+        <div class="cs-image-container" id="cancel-user-flow">
+          <nav class="skip-to-section section-padding">
+            <div><a href="#back-to-top">Back to Top</a></div>
+            <div><a href="#cancelations">In-app Flight Cancels</a></div>
+            <div><a href="#travel-credits">Travel Credits</a></div>
+            <div><a href="#travel-credit-menu">Travel Credit Menu</a></div>
+            <div><a href="#travel-credit-co">Travel Credit Checkout</a></div>
+            <div><a href="#earlybird">EarlyBird Priority Boarding</a></div>
+          </nav>
+          <span class="brmed"></span>   
+        </div>
+
+        <!-------------------------features planned--------------------------------> 
+        <div id="what-is-app" class="section-padding">
+          <div class="dark-text-section">
+            <h4>I worked with our scrum team to strategize the best way to add the following features:</h4>
+            <span class="brmedium"></span>
+            <p>Cancelations: Users were only able to cancel flights that met certain criteria in the app. This created some interesting problems to solve around how to notify the user if they were ineligible.
+            <span class="brmedium"></span>
+            Travel credits: Travelers needed to be able to check out with credits with RTFs when purchasing a Southwest Airlines flight. It's a feature that had to be added to the post-shopping flow due to technical restraints. We needed a way to display any credits they had available on their account, and set out to make sure anything we implemented would scale up to support multiple airlines.
+            <span class="brmedium"></span>
+            Southwest Earlybird: Travelers were now able to purchase Earlybird preferred seating in the app. Previously they would have to do through a customer service agent, or leave the app. Travelers would have the option to add on Earlybird pre and post-purchase.</p>
+          </div>
+          <span class="brlarge"></span>  
+        </div>
+
+
+
+
+
+
+       <!----------------------------cancelation-------------------------------->
+        <div class="section-padding feature-section-heading" id="cancelations">
+          <h3>In-app Flight Cancels</h3>
+          <p>My team rapidly developed this feature as an MVP that met requirements while tech debt was resolved. This meant I had to work with some difficult design/tech limitations.</p>
+        </div>
+        <span class="br"></span>
+
+        <!-------------------------problems--------------------------------> 
+        <div id="cs-problems" class="lt-navy-text-section">
+          <h4>Problems to solve for:</h4>
+          <span class="br"></span>
+          <p>We were on a tight timeline to ship this feature due to pressure from the airline. My PM and I collected data on how often travelers were calling into the customer service center for help while on trips, and found out that almost no one was using the app while "on-trip."  Through interviewing users, we found that it was frustrating to have to call in and cancel when in a busy airport. This helped the product manager and I decide which of the three required features would be developed first.</p>
+          <span class="br"></span>
+          <ol>
+            <li>The way users access their itinerary, flight legs, and purchased "inventory" presented some user experience problems that were not possible to fix and stay in scope. This required me to be creative with microcopy and placement of cancellation buttons. </li>
+            <li>The app was unable to make the call to determine eligibility for self service cancellation before the user clicked through to cancel. This was especially problematic because the load time on Southwest's end is about 40 seconds. For the MVP, we had to make some hard decisions around the experience to stay in scope.</li>
+            <li>I needed to find a way to alert the user to the refundable status of their add-ons, as well as where their refund was going. Depending on the purchase date, fare class, and time-to-departure, there were several circumstances we needed to account for.</li>
+          </ol>
+        </div>
+        <span class="brlarge"></span>   
+        
+
+        <!-------------------------challenges--------------------------------> 
+        <div class="cs-research-scope section-margin">
+          <div class="iteration-heading">
+            <h4>Challenges</h4>
+            <p>I had inherited the app from designers who had already left the company. In addition, it had been neglected due to lack of resources that could be dedicated to the apps experience. Here are some of the challenges I faced when working through this problem.</p>
+          </div>
+          <span class="brmedium"></span>
+          <div class="cs-image-container cancel-user-flow">
+            <div id="cancel-flow-img">
+              <img src="images/upside-one-leg-issues.png" alt="ui before and after">
+            </div>
+            <div id="cancel-flow-gif">
+              <img src="images/upside-mobile-shopping-exp.png" alt="ui before and after">
+            </div>
+          </div>
+          <div class="cs-challenges">
+            <p>Due to the way the app was structured compared to the online shopping experience, I came up against some really difficult logistical challenges. A plan was in the works to refactor the shopping flow so we could clear up some of these confusing UX problems.</p>
+            <span class="br"></span>
+            <ul>
+              <li>It's not immediately clear that you can click on your itinerary items to see your flight.</li>
+              <span class="br"></span>
+              <li>Because you can't see the flight as a whole, any action that can only apply to an entire flight (for example, you can't cancel one leg of a flight in this instance) is implicitly misrepresented by the way this was structured.</li>
+              <span class="br"></span>
+              <li>Similarly, I couldn't just put cancel flight on the itinerary screen (middle). If someone had purchased multiple flights online, they would show up in the app. That would cause engineering problems as well as a confusing user experience.</li>
+            </ul>
+          </div>
+          <span class="brlarge"></span>
+
+
+        <!-------------------------process--------------------------------> 
+          <div class="iteration-heading">
+            <h4>Some first iterations of the cancellation flow</h4>
+            <p>In initial "wireframing" (for efficiency's sake I used screenshots for much of this work), I was working off the assumption that the user needed to be informed of every piece of information tied to their potential cancellation. I tested this with users (UserTesting.com) and found that it was either ignored, or overwhelming.</p>
+          </div>
+          <span class="brmedium"></span>
+          <div class="cs-dbl-image-container">
+            <div style="box-shadow: 0px 4px 12px 4px var(--light-navy);">
+              <img src="images/upside-cancel-it-1.png" alt="">
+            </div>
+            <div style="box-shadow: 0px 4px 12px 4px var(--light-navy);">
+              <img src="images/upside-cancel-it-2.png" alt="">
+            </div>
+          </div>
+          <span class="brmedium"></span>
+          <div class="cs-challenges">
+            <p>Here is when I started to run into problems. Because you can't cancel a single leg, or pull the data required to indicate a flight is eligible for cancellation, this experience becomes murky. I had a long whiteboarding meeting with other designers (sadly lost when the company shut down) and determined that without extensive work on the IA of the shopping and trips experience, we would have to settle for a bandaid in the meantime.</p>
+          </div>
+          <span class="brlarge"></span>
+
+
+
+        <!-------------------------final-------------------------------->
+          <div class="iteration-heading">
+            <h4>Final User Experience (MVP)</h4>
+            <p>From there, I stripped out the chips, and reduced the number of inline messages to two options. This reduced the burden on engineering, and tested much better the secound. This iteration had a 3 second drop in time to cancel.</p>
+          </div>
+            <div class="cs-image-container cancel-user-flow">
+              <div id="cancel-flow-img">
+                <img src="images/upside-cancel-flow.png" alt="ui before and after">
+              </div>
+              <div id="cancel-flow-gif">
+                <img src="images/upside-cancelations.gif" alt="ui before and after">
+              </div>
+            </div>
+            <span class="brmedium"></span>
+            <div class="cs-challenges">
+              <p>In the end, after consulting with my teammates (design and UX writing) I came to the conclusion that the best thing we could do for now would be to change the <span style="font-weight: bold;">"cancel flight"</span> language to <span style="font-weight: bold;">"cancel trip."</span> While not ideal, this would work well enough until we got through tech debt blockers.</p>
+              <span class="br"></span>
+              <p>Cancel trip on the itinerary screen always said <span style="font-weight: bold;">"cancel trip."</span> In addition, the user can only self-service cancel their flight if they <span style="font-weight: bold;">only</span> purchased a flight. My assumption is that will not be too confusing to see <span style="font-weight: bold;">"cancel trip."</span> if all you have in your trip bundle is a flight. Unfortunately, this is not ideal. I planned to follow up with users that cancelled flights using the app. Unfortunately, we weren't able to iterate on this part of the product before the company closed. >
+            </div>
+          </div>
+
+        <!-------------------------nav-------------------------------->            
+        <div class="cs-image-container" id="cancel-user-flow">
+          <nav class="skip-to-section section-padding">
+            <div><a href="#back-to-top">Back to Top</a></div>
+            <div><a href="#cancelations">In-app Flight Cancels</a></div>
+            <div><a href="#travel-credits">Travel Credits</a></div>
+            <div><a href="#travel-credit-menu">Travel Credit Menu</a></div>
+            <div><a href="#travel-credit-co">Travel Credit Checkout</a></div>
+            <div><a href="#earlyBird">EarlyBird Priority Boarding</a></div>
+          </nav>
+          <span class="brmed"></span>   
+        </div>
+
+
+
+
+
+
+        <!-------------------------travel credits--------------------------------> 
+        <div class="section-padding feature-section-heading" id="travel-credits">
+          <h3>Travel Credits</h3>
+          <p>Now that users were able to cancel their flights in app, we needed to give them a way to view their credits and use them to make purchases. We already had this feature in our web app, and needed to extend the functionality to our mobile platforms. I set out to recreate the functionality of our web app with our mobile app users in mind.</p>
+        </div>
+        <span class="br"></span>
+        <div id="cs-problems" class="lt-navy-text-section">
+          <h4>Problems to solve for:</h4>
+          <span class="br"></span>
+          <p>We were still on a tight timeline to ship this feature due to pressure from the airline. While this feature did not require much research as it had already been implemented in our web app, we spent a good deal of time ensuring that mobile best practices were followed. The amount of information in the travel credit menu posed a challenge on small screens. I also needed to solve for how the user would purchase flights with their credits.</p>
+          <span class="br"></span>
+          <ol>
+            <li>Travel credits in our web app were displayed in a 4 column table. I needed to be able to effectively condense this information that was easy to read and sort through on mobile.</li>
+            <li>While we only supported Southwest Airlines' credits at the time of launch, the solution needed to be scalable. Eventually we would support other airlines, and I wanted to ensure we wouldn't be revisiting the user experience in a year.</li>
+            <li>The user needed to be alerted that they could apply their credit at check out. Initially, I had hoped to be able to include that information in the shopping flow, but that was deemed out of scope for v1.</li>
+          </ol>
+        </div>
+
+
+        <!---------------------------travel credit menu-------------------------> 
+        <div class="cs-research-scope section-margin">
+          <span class="brlarge"></span>
+          <div class="feature-subsection-heading" id="travel-credit-menu">
+            <h3>Travel Credit Menu</h3>
+            <p>How I translated a complex table from our web app into a scalable solution that adhered to mobile best practices</p>
+          </div>
+          <span class="brmedium"></span>
+
+        <!-------------------------travel credit menu process--------------->          
+          <div class="iteration-heading">
+            <h4>Travel Credit Menu — Process</h4>
+            <p>As I mentioned earlier, there wasn't much research to be done beyond ensuring I was adhering to best practices. We simply needed parity with the web app, and this project was mostly UI work. That being said, it was quite a bit of information to convey on a small device.</p>
+          </div>
+          <div class="cs-image-container cancel-user-flow">
+            <div id="cancel-flow-img">
+              <img src="images/upside-web-credits.png" alt="ui before and after">
+            </div>
+            <div id="cancel-flow-gif">
+              <img src="images/upside-app-credits.png" alt="ui before and after">
+            </div>
+          </div>
+        </div>
+
+        <!-------------------------travel credit menu shipped--------------->     
+        <div class="cs-research-scope section-margin">
+          <span class="brlarge"></span>
+          <div class="iteration-heading">
+            <h4>Travel Credit Menu — Shipped</h4>
+            <p>I was able to solve for translating the complexity of the table in our web app, and ensure that we had a scalable design that would allow us to support additional airlines in the future.</p>
+          </div>
+          <div class="cs-image-container cancel-user-flow">
+            <div id="cancel-flow-img">
+              <img src="images/upside-travel-credits-menu-splash.png" alt="ui before and after">
+            </div>
+            <div id="cancel-flow-gif">
+              <img src="images/upside-travel-credit-menu.gif" alt="ui before and after">
+            </div>
+          </div>
+        </div>
+
+
+          <!-------------------------------nav-------------------------------> 
+          <div class="cs-image-container" id="cancel-user-flow">
+            <nav class="skip-to-section section-padding">
+              <div><a href="#back-to-top">Back to Top</a></div>
+              <div><a href="#cancelations">In-app Flight Cancels</a></div>
+              <div><a href="#travel-credits">Travel Credits</a></div>
+              <div><a href="#travel-credit-menu">Travel Credit Menu</a></div>
+              <div><a href="#travel-credit-co">Travel Credit Checkout</a></div>
+              <div><a href="#earlyBird">EarlyBird Priority Boarding</a></div>
+            </nav>
+            <span class="brmed"></span>   
+          </div>
+
+
+
+
+
+
+        <!------------------------------travel credit checkout------------------->
+        <div class="cs-research-scope section-margin">
+          <span class="brlarge"></span>
+          <div class="feature-subsection-heading" id="travel-credit-co">
+            <h3>Travel Credit Checkout</h3>
+            <p>How I translated a checkout process from our web app to serve mobile users who are more likely to be in a distracting environment</p>
+          </div>
+
+          <!--------------------------travel credit checkout process----------------> 
+          <span class="brmedium"></span>         
+          <div class="iteration-heading">
+            <h4>Travel Credit Checkout — Process</h4>
+            <p>We had this functionality in the web app as well. It was important to the company to achieve parity between the web app and the native app in order to encourage more bookings. The assumption in the past had been that no one really booked on the app. When we pulled the data, we found that this was false and about 10% of bookings came from the app. The app had been neglected in the past and we hypothesized that that number could grow. If we could add features that are only available in the web app, it should encourage users to plan trips on the go.</p>
+          </div>
+          <div class="cs-image-container cancel-user-flow">
+            <div id="cancel-flow-img">
+              <img src="images/upside-web-RTF-checkout.png" alt="ui before and after">
+            </div>
+            <div id="cancel-flow-gif">
+              <img src="images/upside-old-checkout.png" alt="ui before and after">
+            </div>
+          </div>
+        </div>
+
+        <!---------------------travel credit checkout shipped-----------------------> 
+        <div class="cs-research-scope section-margin">
+          <span class="brlarge"></span>
+          <div class="iteration-heading">
+            <h4>Travel Credit Checkout — Shipped</h4>
+            <p>I successfully translated the web experience for mobile by drawing more attention to the available credits. The checkbox was hard for users to find when tested against the inline message. I also found that using visual color cues helped users move through the process a bit faster.
+            <span class="br"></span>
+            In addition, we were able to rearrange the order of the elements in the checkout page in preparation for v2.
+            </p>
+          </div>
+          <div class="cs-image-container cancel-user-flow">
+            <div id="cancel-flow-img">
+              <img src="images/upside-credit-checkout.png" alt="ui before and after">
+            </div>
+            <div id="cancel-flow-gif">
+              <img src="images/upside-apply-travel-credits.gif" alt="ui before and after">
+            </div>
+          </div>
+        </div>
+
+          <!-------------------------------nav---------------------------------------> 
+          <div class="cs-image-container" id="cancel-user-flow">
+            <nav class="skip-to-section section-padding">
+              <div><a href="#back-to-top">Back to Top</a></div>
+              <div><a href="#cancelations">In-app Flight Cancels</a></div>
+              <div><a href="#travel-credits">Travel Credits</a></div>
+              <div><a href="#travel-credit-menu">Travel Credit Menu</a></div>
+              <div><a href="#travel-credit-co">Travel Credit Checkout</a></div>
+              <div><a href="#earlyBird">EarlyBird Priority Boarding</a></div>
+            </nav>
+            <span class="brmed"></span>   
+          </div>
+
+
+
+
+
+
+        <!--------------------Early Bird Priority Boarding------------------------>    
+        <div class="section-padding feature-section-heading" id="earlybird">
+          <h3 id="earlybird">EarlyBird Priority Boarding</h3>
+          <p>My PM and I had been hearing customers talk about how they wished they could purchase add-ons like priority boarding, extra luggage, and seat upgrades on the go. While looking through reviews of our product, these pain points would come up as well. As a start, we began working on EarlyBird due to its smaller scope for an easy win. We were able to integrate the ability to purchase Southwest's EarlyBird Priority Boarding upgrade into the app—for both pre and post-purchase.</p>
+        </div>
+        <span class="br"></span>
+
+        <!-------------------------Problems------------------------------------->      
+        <div id="cs-problems" class="lt-navy-text-section">
+          <h4>Problems to solve for:</h4>
+          <span class="br"></span>
+          <p>There were two elements to this feature add. Users needed to be able to purchase EarlyBird in the checkout flow, but because the upgrade is available up to 36 hours before departure, the user should be able to upgrade after they've made a purchase.</p>
+          <span class="br"></span>
+          <ol>
+            <li>We had to make some decisions around whether or not we would let ineligible users know that they weren't able to purchase the upgrade.</li>
+            <li>We didn't want to bury the option to purchase the upgrade, but due to the previously mentioned tech debt, we didn't have the option to rework the current experience. Currently, the user can only view one leg of the trip at a time. However, you can't purchase EarlyBird for one leg of your trip. This caused confusion for testers at the time. Unfortunately, the work required to fix the shopping and trip flow was going to be a huge engineering lift.</li>
+            <li>I needed to ensure that the user would see the value add during check out and be able to tell that they had EarlyBird applied to their ticket after purchase.</li>
+          </ol>
+        </div>
+        <span class="brlarge"></span>   
+
+        <!-------------------------first iteration----------------------------------> 
+        <div class="cs-research-scope section-margin">
+          <div class="iteration-heading">
+            <h4>Initial Discussions</h4>
+            <p>We recognized at the outset that we would have to make some concessions due to tech debt. I brainstormed with my PM and several of my teammates to determine the best way to approach this difficult problem.</p>
+          </div>
+          <span class="brmedium"></span>
+          <div class="cs-dbl-image-container">
+            <div style="box-shadow: 0px 4px 12px 4px var(--light-navy);">
+              <img src="images/upside-cancel-it-1.png" alt="">
+            </div>
+            <div style="box-shadow: 0px 4px 12px 4px var(--light-navy);">
+              <img src="images/upside-cancel-it-2.png" alt="">
+            </div>
+          </div>
+          <span class="brlarge"></span>
+
+        <!-------------------------finished-------------------------------->      
+          <div class="iteration-heading">
+            <h4>Final User Experience (MVP)</h4>
+            <p>From there, I stripped out the chips, and reduced the number of inline messages to two options. This reduced the burden on engineering, and tested much better the secound. This iteration had a 3 second drop in time to cancel.</p>
+          </div>
+            <div class="cs-image-container cancel-user-flow">
+              <div id="cancel-flow-img">
+                <img src="images/upside-cancel-flow.png" alt="ui before and after">
+              </div>
+              <div id="cancel-flow-gif">
+                <img src="images/upside-cancelations.gif" alt="ui before and after">
+              </div>
+            </div>
+        </div>
+        <span class="brlarge"></span>  
+        
+
+
+        <!-------------------------------nav---------------------------------------> 
+        <div class="cs-image-container" id="cancel-user-flow">
+          <nav class="skip-to-section section-padding">
+            <div><a href="#back-to-top">Back to Top</a></div>
+            <div><a href="#cancelations">In-app Flight Cancels</a></div>
+            <div><a href="#travel-credits">Travel Credits</a></div>
+            <div><a href="#travel-credit-menu">Travel Credit Menu</a></div>
+            <div><a href="#travel-credit-co">Travel Credit Checkout</a></div>
+            <div><a href="#earlyBird">EarlyBird Priority Boarding</a></div>
+          </nav>
+          <span class="brmed"></span>   
+        </div>
+      </div>
+
+
+        <!-------------------------------footer------------------------------>        
+        <footer>
+            <div id="footer">
+              <div id="footer-top">
+                <a href="index.html" class="footer-logo"><i class="fas fa-draw-polygon"></i>Emily Gerrity</a>
+                <a href="images/gerrity-resume.pdf"><i class="fas fa-file"></i>Resume</a>
+                <a href="uiux-portfolio.html"><i class="fab fa-sketch"></i>UI/UX & Web</a>
+                <a href="http://www.emilygerrity.com" target="_blank" ><i class="fas fa-magic"></i>Graphic Design</a>
+                <a href="https://www.instagram.com/emilygerrityartdesign/" target="_blank"><i class="fas fa-palette"></i>Illustration</a>              
+              </div>
+              <div id="footer-contact">
+                <a href="https://www.linkedin.com/in/emily-gerrity-060035121/" target="_blank"><i class="fab fa-linkedin"></i>linkedin</a>
+                <a href="https://www.instagram.com/emilygerrityartdesign/" target="_blank"><i class="fab fa-instagram-square"></i>instagram</a>
+                <a href="mailto:ergerrity@gmail.com"><i class="fas fa-envelope-square"></i>email</a>
+                <a href="tel:440-667-9749"><i class="fas fa-phone-square"></i>phone</a>
+              </div> 
+            </div>      
+          </footer>
+        </div>
+  </body>
+</html>
