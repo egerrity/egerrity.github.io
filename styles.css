@@ -1385,6 +1385,33 @@ margin-bottom: 3%;
   overflow: hidden;
   background: url(images/upside-ds-shipped-bg.png) no-repeat bottom center/cover;
 }
+.ds-img-container {
+  display: flex;
+  background-color: var(--white);
+  justify-content: center;
+  align-items: stretch;
+}
+.ds-img-container div {
+  width: 30%;
+}
+.ds-img-container img {
+  object-fit: contain;
+}
+.ds-mid-col img {
+  object-fit: contain;
+  width: auto;
+}
+.ds-ptrn-mid-top {
+
+}
+.ds-ptrn-mid-bottom {
+
+}
+.ds-ptrn-right {
+  display: flex;
+  width: 1fr;
+}
+
 /*policy*/
 .policy-container {
   max-width: 90vw;
